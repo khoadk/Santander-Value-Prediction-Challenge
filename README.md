@@ -13,3 +13,9 @@ data: https://www.kaggle.com/c/santander-value-prediction-challenge
     - train.csv - the training set
     - test.csv - the test set
     - sample_submission.csv - a sample submission file in the correct format
+
+# <a id='3'>3. Score results:</a>
+## Baseline:
+* LighGBM regression (score **1.48267**) 
+* XGB regression (score **1.48371**)
+* Model decisions ==> LighGBM model (best scores perfromance **1.48267**)
